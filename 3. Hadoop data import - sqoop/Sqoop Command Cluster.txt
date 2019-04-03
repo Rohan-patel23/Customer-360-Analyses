@@ -1,0 +1,18 @@
+
+sqoop import --connect jdbc:mysql://54.149.41.179/pankaj --table savingsaccount --username pankaj -P -m 1  --as-avrodatafile  --target-dir /user/pankaj/savingsaccount/
+
+sqoop import --connect jdbc:mysql://54.149.41.179/pankaj --table loanaccount --username pankaj -P  -m 1  --as-avrodatafile  --target-dir /user/pankaj/loanaccount/
+
+sqoop import --connect jdbc:mysql://54.149.41.179/pankaj --table depositaccount --username pankaj -P  -m 1  --as-avrodatafile  --target-dir /user/pankaj/depositaccount/
+
+sqoop import --connect jdbc:mysql://54.149.41.179/pankaj --table creditcardtrx --username pankaj -P  -m 1  --as-avrodatafile  --target-dir /user/pankaj/creditcardtrx/
+
+sqoop import --connect jdbc:mysql://54.149.41.179/pankaj --table creditcard --username pankaj -P  -m 1  --as-avrodatafile  --target-dir /user/pankaj/creditcard/
+
+sqoop import --connect jdbc:mysql://54.149.41.179/pankaj --table demographics --username pankaj -P  -m 1  --as-avrodatafile  --target-dir /user/pankaj/demographics/
+
+
+
+ls *.avsc
+
+cat demographics.avsc

@@ -1,0 +1,11 @@
+
+1. Customer 360
+
+2. Extraction, Transformation and Loading of National Weather Data with PIG in HDFS with 
+additional Data Analysis in Hive.
+
+3. Data Migration with SQOOP from RDBMS to HDFS maintaining referential integrity. 
+Using the migrated data to create Fact and Dimension tables in HBase and Hive respectively 
+   maintaining segregation of Departments with respect to Data Privacy.
+
+4. Retail sector Data analysis with PIG and HIVE.
